@@ -28,6 +28,20 @@ body {
 	line-height: 1;
 }
 
+#fox {
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+	max-width: 50%;
+	max-height: 50%;
+}
+
+#fox:hover {
+	filter: none;
+    -webkit-filter: grayscale(0);
+	max-width: 50%;
+	max-height: 50%;
+}
+
 ol, ul {
 	list-style: none;
 }
